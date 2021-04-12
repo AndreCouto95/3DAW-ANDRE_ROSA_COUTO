@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <form action="calculadora.php" method="POST">
+            Qual é a operação que deseja executar: <br>
+            <input type="radio" id="soma" name="operacao" value="soma" checked>
+            <label for="soma">Soma</label><br>
+            <input type="radio" id="subtracao" name="operacao" value="sub">
+            <label for="subtracao">Subtração</label><br>
+            <input type="radio" id="multiplicacao" name="operacao" value="multi" >
+            <label for="multiplicacao">Multiplicação</label><br>
+            <input type="radio" id="divisao" name="operacao" value="div">
+            <label for="divisao">Divisão</label><br>
+            
+            Diga o primeiro número: <input type="number" name="num1"><br>
+            Diga o segundo número: <input type="number" name="num2"><br>
+            <input type="submit" value="Calcular">
+        </form>
+    </body>
+</html>
