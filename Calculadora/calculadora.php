@@ -30,8 +30,14 @@
                 break;
     
             case "div" :
-                $resultado = $num1 / $num2;
-                echo $num1." / ".$num2. " = ".$resultado;
+                if(($num2==0)){
+                    echo "2º número -> inválido<br>";
+                    echo "ERRO! Divisor nulo! Preencha novamente o formulário!";
+                }
+                else{
+                    $resultado = $num1 / $num2;
+                    echo $num1." / ".$num2. " = ".$resultado;
+                }
                 break;
         }
     }
