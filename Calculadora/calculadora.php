@@ -138,4 +138,8 @@
             }
         ?>
     </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> d0bd29dd7ba4ef5dacde8c584b3a5c3da6385cfb
